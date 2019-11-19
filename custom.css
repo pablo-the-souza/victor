@@ -1,0 +1,447 @@
+body {
+    background-image: url(img/Mao\ x768.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    
+}
+
+
+h1 {
+    font-family: 'Amatic SC', cursive;
+    font-size: 100px;
+    font-weight: bolder;
+    text-shadow: 3px 3px 5px rgba(8, 8, 8, 0.5);
+    
+
+}
+
+.biblia { 
+    text-shadow: 3px 3px 5px rgba(14, 13, 13, 0.5);
+    color: black;
+}
+
+h2 {
+    font-family: 'Lato', sans-serif;
+    color: black;
+    font-weight: bolder;
+    font-size: 40px; 
+    margin-top: 10px; 
+    margin-bottom: 10px; 
+    padding-top: 10px; 
+    
+}
+
+nav {
+    background-color: white;
+    height: 50px !important;
+}
+
+#navbar_links li a {
+    font-size: 20px; 
+}
+
+a:link {
+ 
+    text-decoration: none; 
+    color: black; 
+}
+
+a:visited {
+    text-decoration: none; 
+    color: black; 
+      }
+
+.container-fluid .sobretitulo .colunaautor a:link {
+        text-decoration: none; 
+        color: black; 
+    }
+
+    .container-fluid .sobretitulo .colunaautor a:visited {
+        text-decoration: none; 
+        color: black; 
+          }
+
+
+  .main {
+      height: 800px;
+      text-justify:auto;    
+      color: red;
+      
+  }
+
+  .main p{
+      color: white;
+      font-family: 'Times New Roman', Times, serif;
+      font-size: 25px; 
+  }
+      
+
+span {
+    
+    cursor: pointer;
+    color: red; 
+    text-decoration: none;
+    font-weight: bolder;
+    text-shadow: 3px 3px 5px rgba(3, 3, 3, 0.5);
+}
+
+  
+
+ .sobretitulo {
+     padding-top: 60px; 
+      
+ }
+
+  .topo {
+      font-size: 25px;
+      text-align: center;
+      font-family: 'Lato', sans-serif;
+      margin-top: 30px;
+      margin-bottom: 30px;
+      background-color: white;
+      font-weight: bold;
+      border-bottom: 1px solid black; 
+      padding-bottom: 30px
+  }
+
+
+/* foto autor */
+
+  .doidinho {
+    border-radius: 50%;
+    margin-top: 20%; 
+  } 
+
+  .center-block {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+  }
+
+  .sobreautor {
+    background-color: white;
+  }
+
+  .sobretitulo {
+    background-color: white;
+  }
+
+  .titulo {
+    background-color:white   ;
+}
+
+.colunaautor{
+    margin-top: 30px;
+     
+}
+
+.textoautor {
+    padding-top: 30px; 
+    background-color: white;
+    font-size: 20px; 
+    
+    
+}
+
+.fotoautor {
+    margin-bottom: 30px; 
+}
+
+ /*Livro*/
+
+
+
+
+  .livro {
+      text-justify:auto;  
+      background-color: white;
+      padding-bottom: 50px; 
+  }
+
+  .sobrelivro {
+    background-color: white; 
+  }
+  
+
+  .topolivro{
+    font-size: 25px;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-color: white;
+    font-weight: bold;
+    border-bottom: 1px solid black; 
+    padding-bottom: 30px; 
+      
+  }
+
+  .titulolivro {
+    padding-top: 60px; 
+    background-color: white;
+    text-align: center; 
+    margin-bottom: 30px; 
+    
+  }
+
+  .colunalivro{
+    margin-top: 30px;
+    
+    
+}
+
+.textolivro {
+    padding-top: 30px; 
+    background-color: white; 
+    text-align: justify;
+    font-size: 20px !important;
+}
+
+.btn {
+    margin-top: 40px; 
+    background-color: rgb(226, 222, 222) ; 
+    font-size: 40px; 
+    padding-right: 100px; 
+    padding-left: 100px;  
+}
+
+
+   /*footer*/
+
+   .footer {
+    background-color: white;
+    justify-content: center;
+  
+    
+}
+
+.footer1 {
+    justify-content: center; 
+    text-align: center;
+    font-size: 15px;  
+    border-top: solid black 1px; 
+}
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400);
+
+
+.center {
+    border-top: solid black 1px;  
+  display: table;
+  width: 100%;
+  height: 30vh;
+  background-color: white; 
+   
+}
+
+#social-test {
+  display: table-cell;
+  vertical-align: bottom;
+  text-align: center;
+  font-size: 30px;
+}
+  #social-test .social {
+    padding-left: 0px;
+  }
+
+  #social-test li {
+    display: inline-block;
+  }
+  #social-test li a {
+    color: black ;
+    border-radius: 6px;
+    list-style-type: none;
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    line-height: 40px;
+    padding: 1%;
+    cursor: pointer;
+    margin-left: 10px;
+    margin-bottom: 1px;
+    transition: ease .3s;
+  }
+    #social-test li a:hover {
+      color: red; 
+      border: 1px solid rgba(256, 256, 256, 1);
+    }
+  
+
+
+.social:hover > li {
+  opacity: 0.5;
+}
+
+.social:hover > li:hover {
+  opacity: 1;
+}
+.credits, .credits a {
+  font-size: 20px;
+  font-family: Open Sans;
+  color: red;
+}
+
+
+  
+@media (min-width: 356px) and (max-width: 750px) {
+    html {font-size: 1rem; }
+    .linhacontato img {
+        max-height: 10%;
+        max-width: 10%;   
+    }
+
+
+
+.nav-link {
+    background-color: white;
+  }
+
+  body {
+    background-color: whitesmoke; 
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    
+    
+}
+
+#topo {
+    background-image: url(img/maozinha.png);
+    background-repeat: no-repeat; 
+    background-size: cover;  
+    background-position: center center;   
+}
+
+
+}
+
+
+
+@media (min-width: 456px) {
+    html {font-size: 1rem; }
+    .linhacontato img {
+        max-height: 10%;
+        max-width: 10%;   
+    }
+    
+}
+
+@media (min-width: 576px) {
+    html { font-size: 1.25rem; }
+    
+    .linhacontato img {
+        max-height: 80%;
+        max-width: 80%;   
+    }
+
+    .fotoautor1 img {
+        max-height: 50%;
+        max-width: 50%; 
+        margin-top: 20px; 
+}
+
+    .icone img {
+        max-height: 200%;
+        max-width: 200%; 
+   }
+
+   .fotoautor img {
+        max-height: 50%;
+        max-width: 50%; 
+        margin-top: 20px;
+
+}
+}
+@media (min-width: 768px) {
+    html { font-size: 1.5rem; }
+    
+    .linhacontato img {
+        max-height: 100%;
+        max-width: 100%;   
+      }
+
+    .fotoautor1 img {
+        max-height: 30%;
+        max-width: 30%; 
+        margin-top: 20px;   
+    }
+
+    .fotolivro1 img {
+        max-height: 50%;
+        max-width: 50%; 
+        margin-top: 20px;   
+    }
+
+    .icone img {
+        max-height: 100%;
+        max-width: 100%; 
+       }
+
+       .fotoautor img {
+        max-height: 100%;
+        max-width: 100%; 
+        margin-top: 20px;
+    
+    }
+
+    
+
+
+}
+@media (min-width: 992px) {
+    html { font-size: 1.75rem; }
+    .linhacontato img {
+        max-height: 100%;
+        max-width: 100%;   
+    }
+
+    .fotoautor1 img {
+        max-height: 30%;
+        max-width: 30%; 
+        margin-top: 20px;   
+    }
+
+    .fotolivro1 img {
+        max-height: 50%;
+        max-width: 50%; 
+        margin-top: 20px; 
+    }
+
+    .icone img {
+        max-height: 40%;
+        max-width: 40%; 
+}
+    
+}
+@media (min-width: 1200px) {
+    html { font-size: 2rem; }
+
+    .fotoautor1 img {
+        max-height: 20%;
+        max-width: 20%; 
+        margin-top: 20px; 
+
+    }
+
+    .fotoautor img {
+        max-height: 100%;
+        max-width: 100%; 
+        margin-top: 20px;  
+    }
+
+    .fotolivro1 img {
+        max-height: 40%;
+        max-width: 40%; 
+        margin-top: 20px; 
+    }
+
+    .button img {
+        max-height: 40%;
+        max-width: 40%; 
+    }
+        
+}
+
+
